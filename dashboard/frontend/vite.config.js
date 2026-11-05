@@ -9,7 +9,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       // '/api': 'http://localhost:4000',
-      "/api": "https://water-quality-monitoring-delta.vercel.app/",
+      "/api": {
+        target: "https://water-quality-monitoring-delta.vercel.app/",
+        changeOrigin: true,
+        secure: true
+      },
     },
   },
 });
