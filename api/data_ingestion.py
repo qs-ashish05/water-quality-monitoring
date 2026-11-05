@@ -16,7 +16,7 @@ DB_CONFIG = {
     "port":  6543,
     "dbname": "postgres",
     "user": "postgres.jrcnplryqsgwflsytxyc",
-    "password": "Ash@qwerty@8080",
+    "password": "test@1234",
 }
 
 # The API timestamps are in IST (UTC+05:30)
