@@ -10,9 +10,9 @@ export default defineConfig({
     proxy: {
       // '/api': 'http://localhost:4000',
       "/api": {
-        target: "https://water-quality-monitoring-delta.vercel.app/",
+        target: "https://wq-backend-sigma.vercel.app/",
         changeOrigin: true,
-        secure: true
+        secure: true,
       },
     },
   },
